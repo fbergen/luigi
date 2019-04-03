@@ -1117,6 +1117,7 @@ function visualiserApp(luigi) {
         });
 
         dt = $('#taskTable').DataTable({
+            scrollX: true,
             stateSave: true,
             stateSaveCallback: function(settings, data) {
                 // Save data table state to browser's hash.
